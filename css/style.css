@@ -1,0 +1,65 @@
+:root{
+    --dark: #141414;
+    --white:#FBFBFB;
+    --chianti:#7A3145;
+    --blush:#D4BFC4;
+    --green:#576F35;
+    --grey:#858585;
+    --transparent:#141414;
+    --greenlight:#3CBC81;
+    --smthwrong:#E74A3B;
+    /* body1 */
+    --boyd1-weight: 500;
+    --body1-font-size: 16px;
+    --body1-line-height:0%;
+    --body1-line-height:20px;
+    --body1-letter-spacing:0;
+    /* body2 */
+    --boyd2-weight: 700;
+    --body2-font-size: 16px;
+    --body2-line-height:0%;
+    --body2-line-height:20px;
+    --body2-letter-spacing:0;
+    /* Accent text */
+    --accent-weight: 600;
+    --accent-font-size: 18px;
+    --accent-line-height:0%;
+    --accent-line-height:20px;
+    --accent-letter-spacing:-0.015em;
+}
+
+/* RESET CSS AYARLARI */
+
+*{
+    font-family: "Inter Tight", serif;
+    margin: 0;
+    padding: 0;
+}
+
+a,ul,li{
+    text-decoration: none;
+}
+
+
+h1{
+    font-weight: 600;
+    font-size: 76px;
+    letter-spacing: -1.5em;
+    line-height: 1%;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: -1.5em;
+    line-height: 1%;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -1.5em;
+    line-height: 1%;
+}
+
+
