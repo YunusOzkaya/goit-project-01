@@ -8,79 +8,69 @@
     --transparent:#141414;
     --greenlight:#3CBC81;
     --smthwrong:#E74A3B;
-    /* body1 */
-    --boyd1-weight: 500;
-    --body1-font-size: 16px;
-    --body1-line-height:0%;
-    --body1-line-height:20px;
-    --body1-letter-spacing:0;
-    /* body2 */
-    --boyd2-weight: 700;
-    --body2-font-size: 16px;
-    --body2-line-height:0%;
-    --body2-line-height:20px;
-    --body2-letter-spacing:0;
-    /* Accent text */
-    --accent-weight: 600;
-    --accent-font-size: 18px;
-    --accent-line-height:0%;
-    --accent-line-height:20px;
-    --accent-letter-spacing:-0.015em;
+ }
+ .body1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
 }
 
-    .body1 {
-        font-weight: 500;
+.body2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+
+.accent-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.015em;
+}
+
+.header1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.5%;
+}
+
+.header2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1.5%;
+}
+
+.header3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    letter-spacing: -1.5%;
+}
+
+.button-text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -1.5%;
+}
+
+@media (max-width: 768px) {
+    .header1, .header2, .header3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .body1, .body2 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .accent-text, .button-text {
         font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0;
+        line-height: 18px;
     }
-
-    .body2 {
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing: 0;
-    }
-
-    .accent-text {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 20px;
-        letter-spacing: -0.015em;
-    }
-
-/* RESET CSS AYARLARI */
-
-*{
-    font-family: "Inter Tight", serif;
-    margin: 0;
-    padding: 0;
 }
-
-a,ul,li{
-    text-decoration: none;
-}
-
-
-.header1{
-    font-weight: 600;
-    font-size: 76px;
-    letter-spacing: -1.5%;
-    line-height: 1%;
-}
-
-.header2{
-    font-weight: 600;
-    font-size: 64px;
-    letter-spacing: -1.5%;
-    line-height: 1%;
-}
-
-.header3{
-    font-weight: 600;
-    font-size: 32px;
-    letter-spacing: -1.5%;
-    line-height: 1%;
-}
-
-
