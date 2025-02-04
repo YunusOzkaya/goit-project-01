@@ -28,6 +28,27 @@
     --accent-letter-spacing:-0.015em;
 }
 
+    .body1 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+
+    .body2 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0;
+    }
+
+    .accent-text {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.015em;
+    }
+
 /* RESET CSS AYARLARI */
 
 *{
@@ -41,21 +62,21 @@ a,ul,li{
 }
 
 
-h1{
+.header1{
     font-weight: 600;
     font-size: 76px;
     letter-spacing: -1.5%;
     line-height: 1%;
 }
 
-h2{
+.header2{
     font-weight: 600;
     font-size: 64px;
     letter-spacing: -1.5%;
     line-height: 1%;
 }
 
-h3{
+.header3{
     font-weight: 600;
     font-size: 32px;
     letter-spacing: -1.5%;
