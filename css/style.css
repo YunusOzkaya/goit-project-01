@@ -69,19 +69,38 @@ a,ul,li{
     letter-spacing: -1.5%;
 }
 
-@media (max-width: 768px) {
-    .header1, .header2, .header3 {
-        font-size: 24px;
+@media (max-width: 375px) {
+    .header1{
+        weight : semibold;
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .header2{
+        weight : semibold;
+        font-size: 48px;
+        line-height: 52px;
+    }
+        .header3{
+        weight : semibold;
+        font-size: 28px;
         line-height: 28px;
     }
-
-    .body1, .body2 {
+    .body1{
+        weight:medium;
         font-size: 14px;
-        line-height: 18px;
+        line-height: 20px;
+        letter-spacing:0%;
     }
-
-    .accent-text, .button-text {
+       .body2{
+        weight:bold;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing:0%;
+    }
+    .accent-text{
+                weight : semibold;
         font-size: 16px;
-        line-height: 18px;
+        line-height: 20px;
+        letter-spacing:-1.5%;
     }
 }
