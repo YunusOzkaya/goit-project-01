@@ -106,3 +106,50 @@ li {
     letter-spacing: -1.5%;
   }
 }
+/* advirtisement*/
+
+.advertisement {
+  display: block;
+  position: relative;
+  width: 1280px;
+  height: 428px;
+  top: 1556px;
+  padding: 100px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: #fbfbfb;
+}
+.discount {
+  display: block;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 1080px;
+  height: 228px;
+}
+.discountyellow {
+  display: block;
+  background-color: #576f35;
+  width: 808px;
+  height: 84px;
+  top: -4px;
+  border-radius: 12px;
+}
+.discountup {
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  width: 1054px;
+  height: 228px;
+  left: 16px;
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: -0.015em;
+  color: #fbfbfb;
+}
+
+.taste {
+  color: #141414;
+}
