@@ -104,3 +104,87 @@ a,ul,li{
         letter-spacing:-1.5%;
     }
 }
+
+/* VEGETABLES SECTİON START */
+#vegetables {
+    background-color: var(--chianti);
+    width: 1280px;
+    height: 1232px;
+    padding: 100px;
+  }
+  
+  /* Vegetables Heading Start */
+  .header2 {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vegetables-heading-span {
+    color: var(--blush);
+  }
+  
+  .vegetables-container .vegetables-heading-parag {
+    color: var(--white);
+  }
+  
+  .vegetables-heading-container {
+    width: 626px;
+    height: 192px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow: visible;
+  }
+  /* Vegetables Heading End */
+  
+  /* Vegetables Cards Start */
+  .vegetables-cards {
+    width: 1080px;
+    height: 788px;
+  }
+  
+  .vegetables-cards .vegetables-card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 28px;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+  }
+  
+  .vegetables-card-list-items {
+    width: 344px;
+    height: 380px;
+    padding: 32px;
+    overflow: hidden;
+    background-color: var(--white);
+    border-radius: 40px;
+  }
+  
+  .vegetables-cards-heading + .vegetables-cards-parag {
+    gap: 12px;
+  }
+  
+  .vegetables-cards-heading and .vegetables-cards-parag {
+    width: 84px;
+    height: 64px;
+  }
+
+  .vegetables-card-list-items .vegetables-cards-heading {
+    color: var(--chianti);
+  }
+  
+  .vegetables-card-list-items .vegetables-cards-parag {
+    color: var(--dark);
+    font-weight: 700;
+  }
+  
+  .vegetables-card-list-items img {
+    width: 100%;
+    height: auto;
+  }
+  /* Vegetables Cards End */
+  
+  /* VEGETABLES SECTİON END */
