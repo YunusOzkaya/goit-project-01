@@ -1,190 +1,218 @@
-:root{
-    --dark: #141414;
-    --white:#FBFBFB;
-    --chianti:#7A3145;
-    --blush:#D4BFC4;
-    --green:#576F35;
-    --grey:#858585;
-    --transparent:#141414;
-    --greenlight:#3CBC81;
-    --smthwrong:#E74A3B;
+:root {
+  --dark: #141414;
+  --white: #fbfbfb;
+  --chianti: #7a3145;
+  --blush: #d4bfc4;
+  --green: #576f35;
+  --grey: #858585;
+  --transparent: #141414;
+  --greenlight: #3cbc81;
+  --smthwrong: #e74a3b;
 }
 
-*{
-    font-family: "Inter Tight", serif;
-    margin: 0;
-    padding: 0;
+* {
+  font-family: "Inter Tight", serif;
+  margin: 0;
+  padding: 0;
 }
 
-a,ul,li{
-    text-decoration: none;
+a,
+ul,
+li {
+  text-decoration: none;
 }
 
- .body1 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0;
+.body1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
 }
 
 .body2 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0;
 }
 
 .accent-text {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: -0.015em;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
 }
 
 .header1 {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: -1.5%;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -1.5%;
 }
 
 .header2 {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 52px;
-    letter-spacing: -1.5%;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -1.5%;
 }
 
 .header3 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 28px;
-    letter-spacing: -1.5%;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 28px;
+  letter-spacing: -1.5%;
 }
 
 .button-text {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: -1.5%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -1.5%;
 }
 
 @media (max-width: 375px) {
-    .header1{
-        weight : semibold;
-        font-size: 48px;
-        line-height: 48px;
-    }
-    .header2{
-        weight : semibold;
-        font-size: 48px;
-        line-height: 52px;
-    }
-        .header3{
-        weight : semibold;
-        font-size: 28px;
-        line-height: 28px;
-    }
-    .body1{
-        weight:medium;
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing:0%;
-    }
-       .body2{
-        weight:bold;
-        font-size: 14px;
-        line-height: 20px;
-        letter-spacing:0%;
-    }
-    .accent-text{
-                weight : semibold;
-        font-size: 16px;
-        line-height: 20px;
-        letter-spacing:-1.5%;
-    }
+  .header1 {
+    weight: semibold;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  .header2 {
+    weight: semibold;
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .header3 {
+    weight: semibold;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .body1 {
+    weight: medium;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+  }
+  .body2 {
+    weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+  }
+  .accent-text {
+    weight: semibold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -1.5%;
+  }
 }
 
 /* VEGETABLES SECTİON START */
 #vegetables {
-    background-color: var(--chianti);
-    width: 1280px;
-    height: 1232px;
-    padding: 100px;
-  }
-  
-  /* Vegetables Heading Start */
-  .header2 {
-    color: var(--white);
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .vegetables-heading-span {
-    color: var(--blush);
-  }
-  
-  .vegetables-container .vegetables-heading-parag {
-    color: var(--white);
-  }
-  
-  .vegetables-heading-container {
-    width: 626px;
-    height: 192px;
-    text-align: start;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    overflow: visible;
-  }
-  /* Vegetables Heading End */
-  
-  /* Vegetables Cards Start */
-  .vegetables-cards {
-    width: 1080px;
-    height: 788px;
-  }
-  
-  .vegetables-cards .vegetables-card-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px 28px;
-    justify-content: center;
-    align-items: center;
-    overflow: visible;
-  }
-  
-  .vegetables-card-list-items {
-    width: 344px;
-    height: 380px;
-    padding: 32px;
-    overflow: hidden;
-    background-color: var(--white);
-    border-radius: 40px;
-  }
-  
-  .vegetables-cards-heading + .vegetables-cards-parag {
-    gap: 12px;
-  }
-  
-  .vegetables-cards-heading and .vegetables-cards-parag {
-    width: 84px;
-    height: 64px;
+  background-color: var(--chianti);
+  width: 1280px;
+  height: 1232px;
+  padding: 100px;
+}
+
+/* Vegetables Heading Start */
+.header2 {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.vegetables-heading-span {
+  color: var(--blush);
+}
+
+.vegetables-container .vegetables-heading-parag {
+  color: var(--white);
+}
+
+.vegetables-heading-container {
+  width: 626px;
+  height: 192px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow: visible;
+}
+/* Vegetables Heading End */
+
+/* Vegetables Cards Start */
+.vegetables-cards {
+  width: 1080px;
+  height: 788px;
+}
+
+.vegetables-cards .vegetables-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px 28px;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+
+.vegetables-card-list-items {
+  width: 344px;
+  height: 380px;
+  padding: 32px;
+  overflow: hidden;
+  background-color: var(--white);
+  border-radius: 40px;
+}
+
+.vegetables-cards-heading + .vegetables-cards-parag {
+  gap: 12px;
+}
+
+.vegetables-cards-heading and .vegetables-cards-parag {
+  width: 84px;
+  height: 64px;
+}
+
+.vegetables-card-list-items .vegetables-cards-heading {
+  color: var(--chianti);
+}
+
+.vegetables-card-list-items .vegetables-cards-parag {
+  color: var(--dark);
+  font-weight: 700;
+}
+
+.vegetables-card-list-items img {
+  width: 100%;
+  height: auto;
+}
+/* Vegetables Cards End */
+
+/* Responsive Start */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  #vegetables {
+    width: 100%;
+    max-width: 1280px;
+    padding: 100px 32px;
   }
 
-  .vegetables-card-list-items .vegetables-cards-heading {
-    color: var(--chianti);
+  .vegetables-cards .vegetables-card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 24px;
+    justify-content: center;
   }
-  
-  .vegetables-card-list-items .vegetables-cards-parag {
-    color: var(--dark);
-    font-weight: 700;
-  }
-  
-  .vegetables-card-list-items img {
+
+  .vegetables-card-list-items {
     width: 100%;
-    height: auto;
+    max-width: 344px;
+    height: 380px;
   }
-  /* Vegetables Cards End */
-  
-  /* VEGETABLES SECTİON END */
+}
+
+/* Responsive End */
+
+/* VEGETABLES SECTİON END */

@@ -83,3 +83,63 @@
     width: 100%;
   }
 }
+
+
+/* VEGETABLES SECTİON */
+
+
+/* Mobil */
+@media (max-width: 767px) {
+  #vegetables {
+    width: 100%;
+    max-width: 375px;
+    background-color: var(--chianti);
+  }
+  .vegetables-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 375px;
+    
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .vegetables-heading-container {
+    width: 335px;
+    text-align: center;
+  }
+
+  .vegetables-heading-container .header2 {
+    width: 335px;
+    height: 104px;
+  }
+
+  .vegetables-heading-container .vegetables-heading-parag {
+    width: 335px;
+    height: 80px;
+  }
+
+  .vegetables-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-items: center;
+  }
+
+  .vegetables-cards .vegetables-card-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .vegetables-card-list-items {
+    width: 335px;
+    height: 376px;
+    padding: 24px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
