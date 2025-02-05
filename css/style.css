@@ -71,34 +71,34 @@ a,ul,li{
 
 @media (max-width: 375px) {
     .header1{
-        weight : semibold;
+        font-weight : semibold;
         font-size: 48px;
         line-height: 48px;
     }
     .header2{
-        weight : semibold;
+        font-weight : semibold;
         font-size: 48px;
         line-height: 52px;
     }
         .header3{
-        weight : semibold;
+        font-weight : semibold;
         font-size: 28px;
         line-height: 28px;
     }
     .body1{
-        weight:medium;
+        font-weight:medium;
         font-size: 14px;
         line-height: 20px;
         letter-spacing:0%;
     }
        .body2{
-        weight:bold;
+        font-weight:bold;
         font-size: 14px;
         line-height: 20px;
         letter-spacing:0%;
     }
     .accent-text{
-                weight : semibold;
+        font-weight : semibold;
         font-size: 16px;
         line-height: 20px;
         letter-spacing:-1.5%;
