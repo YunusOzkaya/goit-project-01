@@ -107,15 +107,71 @@ li {
   }
 }
 
-/* VEGETABLES SECTİON START */
+/* VEGETABLES CSS START */
 #vegetables {
-  background-color: var(--chianti);
   width: 1280px;
   height: 1232px;
+  background-color: var(--chianti);
   padding: 100px;
 }
 
-/* Vegetables Heading Start */
+.vegetables-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+  max-width: 1080px;
+  box-sizing: border-box;
+  margin: auto;
+  gap: 52px;
+}
+
+.vegetables-heading-container {
+  width: 626px;
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.vegetables-heading-container .header2 {
+  width: 335px;
+  height: 104px;
+}
+
+.vegetables-heading-container .vegetables-heading-parag {
+  width: 626px;
+  height: 40px;
+  color: var(--white);
+}
+
+.vegetables-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.vegetables-cards .vegetables-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px 24px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  }
+
+.vegetables-card-list-items {
+  width: 335px;
+  height: 376px;
+  padding: 24px;
+  background-color: var(--white);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
 .header2 {
   color: var(--white);
   display: flex;
@@ -124,45 +180,6 @@ li {
 
 .vegetables-heading-span {
   color: var(--blush);
-}
-
-.vegetables-container .vegetables-heading-parag {
-  color: var(--white);
-}
-
-.vegetables-heading-container {
-  width: 626px;
-  height: 192px;
-  text-align: start;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  overflow: visible;
-}
-/* Vegetables Heading End */
-
-/* Vegetables Cards Start */
-.vegetables-cards {
-  width: 1080px;
-  height: 788px;
-}
-
-.vegetables-cards .vegetables-card-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px 28px;
-  justify-content: center;
-  align-items: center;
-  overflow: visible;
-}
-
-.vegetables-card-list-items {
-  width: 344px;
-  height: 380px;
-  padding: 32px;
-  overflow: hidden;
-  background-color: var(--white);
-  border-radius: 40px;
 }
 
 .vegetables-cards-heading + .vegetables-cards-parag {
@@ -187,32 +204,24 @@ li {
   width: 100%;
   height: auto;
 }
-/* Vegetables Cards End */
-
-/* Responsive Start */
 
 /* Tablet */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   #vegetables {
-    width: 100%;
-    max-width: 1280px;
-    padding: 100px 32px;
+    padding: 100px 22px;
+    height: 100vh;
   }
 
   .vegetables-cards .vegetables-card-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 28px 24px;
+    gap: 28px;
     justify-content: center;
+    width: calc(65% - 24px);
   }
 
   .vegetables-card-list-items {
     width: 100%;
-    max-width: 344px;
     height: 380px;
   }
 }
-
-/* Responsive End */
-
-/* VEGETABLES SECTİON END */
