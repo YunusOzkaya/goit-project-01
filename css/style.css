@@ -43,8 +43,8 @@ a,ul,li{
 
 .header1 {
     font-weight: 600;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 76px;
+    line-height: 76px;
     letter-spacing: -1.5%;
 }
 
@@ -98,9 +98,100 @@ a,ul,li{
         letter-spacing:0%;
     }
     .accent-text{
-                weight : semibold;
+        weight : semibold;
         font-size: 16px;
         line-height: 20px;
         letter-spacing:-1.5%;
     }
 }
+header .header-div{
+    position: absolute;
+    display: flex;
+    width: 1280px;
+    height: 52px;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    top: 32px;
+}
+.header-div-logo{
+
+}
+header .header-navi{
+    align-items: center;
+    display: flex;
+}
+header .header-nav-list{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+header .header-nav-link{
+    margin:auto;
+}
+header .header-nav-link .header-nav-button{
+    border-radius: 12px;
+    padding: 12px;
+    border: 1px solid var(--white);
+    background-color: transparent;
+    text-align: center;
+}
+header .header-navi .btn-shop{
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    border-radius: 30px;
+    border: 1px solid var(--chianti);
+    background-color: var(--chianti);
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -1,5%;
+}
+.header-navi .header-nav-a{
+    text-decoration: none;
+    color: var(--white);
+}
+.section-hero{
+    height: 769px;
+    margin: 0 auto;
+}
+.section-hero .hero-div{
+    display: flex;
+    width: 1280px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    background-color: var(--green);
+}
+.section-hero .hero-text{
+    width: 504px;
+    height: 564px;
+    margin-top: 232px;
+}
+.section-hero .hero-text .hero-h1{
+    color: var(--white);
+    text-transform: uppercase;
+    width: 502px;
+    height: 304px;
+}
+.section-hero .hero-paragraf{
+    color: var(--white);
+    position: absolute;
+    width: 472px;
+    height: 80px;
+    margin-top: 108px;
+    font-family: "Inter Tight", serif;
+    line-height: 1.25em;
+    size: 16px;
+}
+.section-hero .hero-image{
+
+}
+.section-hero .hero-img{
+    width: 100%;
+}
+
