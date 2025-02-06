@@ -311,3 +311,193 @@ li {
 }
 
 /* section list finish */
+
+/* Responsive Start */
+
+/* Tablet */
+@media screen (max-width: 765px) {
+  .main-container {
+    width: Hug (768px) px;
+    height: Hug (1, 548px) px;
+    top: 1020px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .how-it-works-container-image {
+    width: Hug (768px) px;
+    height: Hug (840px) px;
+    padding: 100px 64px 100px 64px;
+    gap: 10px;
+    opacity: 0px;
+    background: #7a3145;
+  }
+  .container-rectangle {
+    width: 640px;
+    height: 640px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    background: #14141433;
+  }
+  .how-it-works-container-section-list {
+    width: Hug (768px) px;
+    height: Hug (708px) px;
+    padding: 100px 164px 100px 164px;
+    gap: 10px;
+    opacity: 0px;
+    background: #576f35;
+  }
+  .section-container {
+    width: Fixed (440px) px;
+    height: Hug (508px) px;
+    gap: 52px;
+    opacity: 0px;
+  }
+  .container-list-title {
+    width: Fixed (440px) px;
+    height: Hug (180px) px;
+    gap: 24px;
+    opacity: 0px;
+  }
+  .our-baskets-paragraf-bir {
+    width: 335px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .container-list-block {
+    width: Fixed (440px) px;
+    height: Hug (276px) px;
+    gap: 24px;
+    opacity: 0px;
+  }
+  .list-item-one {
+    width: Fixed (440px) px;
+    height: Hug (76px) px;
+    padding: 12px 25px 12px 24px;
+    gap: 10px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .list-item-two {
+    width: Fixed (440px) px;
+    height: Hug (76px) px;
+    padding: 12px 25px 12px 24px;
+    gap: 10px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .list-item-three {
+    width: Fixed (440px) px;
+    height: Hug (76px) px;
+    padding: 12px 25px 12px 24px;
+    gap: 10px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .step-number {
+    width: Fixed (440px);
+    height: Hug (76px);
+    border-radius: 15px;
+    padding-top: 12px;
+    padding-right: 27px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    gap: 10px;
+    background-color: #fbfbfb;
+  }
+}
+/* mobile */
+@media screen (max-width: 375px) {
+  .main-container {
+    width: Hug (375px) px;
+    height: Hug (1, 208px) px;
+    top: 840px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .how-it-works-container-image {
+    width: Hug (375px) px;
+    height: Hug (532px) px;
+    padding: 40px 20px 40px 20px;
+    gap: 10px;
+    opacity: 0px;
+    background: #7a3145;
+  }
+  .container-rectangle {
+    width: 335px;
+    height: 452px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    background: #141414;
+  }
+  .how-it-works-container-section-list {
+    width: Hug (375px) px;
+    height: Hug (676px) px;
+    padding: 80px 20px 80px 20px;
+    gap: 40px;
+    opacity: 0px;
+    background: #576f35;
+  }
+  .section-container {
+    width: Hug (335px) px;
+    height: Hug (192px) px;
+    gap: 20px;
+    opacity: 0px;
+  }
+  .container-list-title {
+    width: 335px;
+    height: 112px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .our-baskets-paragraf-bir {
+    width: 335px;
+    height: 60px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .container-list-block {
+    width: Hug (335px) px;
+    height: Hug (284px) px;
+    gap: 20px;
+    opacity: 0px;
+  }
+  .list-item-one {
+    width: Hug (335px) px;
+    height: Hug (84px) px;
+    padding: 12px 27px 12px 24px;
+    gap: 10px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+    background: #fbfbfb;
+  }
+  .list-item-two {
+    width: Hug (335px) px;
+    height: Hug (84px) px;
+    padding: 12px 27px 12px 24px;
+    gap: 10px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+    background: #fbfbfb;
+  }
+  .list-item-three {
+    width: Hug (335px) px;
+    height: Hug (84px) px;
+    padding: 12px 27px 12px 24px;
+    gap: 10px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+    background: #fbfbfb;
+  }
+  .step-number {
+    width: Hug (335px) px;
+    height: Hug (84px) px;
+    padding: 12px 27px 12px 24px;
+    gap: 10px;
+    border-radius: 15px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #fbfbfb;
+  }
+}
