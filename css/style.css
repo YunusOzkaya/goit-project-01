@@ -142,11 +142,12 @@ li {
   flex: 1;
 }
 .cantainer-rectangle {
+  width: 100%;
   width: 440px;
   height: 560px;
   gap: 0px;
   opacity: 0px;
-  border-radius: 30px;
+  border-radius: 10px;
   background: #14141433;
 
   /* image finish */
@@ -212,16 +213,15 @@ li {
   color: #fbfbfb;
 }
 .container-list-block {
-  
-  
 }
-.list-block{
-    width: Fixed (440px) px;
+.list-block {
+  width: Fixed (440px) px;
   height: Hug (276px) px;
   gap: 24px;
   opacity: 0px;
   margin-top: 20px;
-list-style-type: none;
+  list-style-type: none;
+
 }
 .step-number {
   background-color: #5a2a41;
@@ -239,18 +239,15 @@ list-style-type: none;
   opacity: 0px;
 }
 .list-item-one {
-    width: Fixed (440px) px;
-    height: Hug (76px) px;
-    padding: 12px 25px 12px 24px;
-    gap: 10px;
-    border-radius: 15px;
-    opacity: 0px;
-    background: #fbfbfb;
-    align-items: center;
-    margin: 10px 0;
-    
-  
-  
+  width: Fixed (440px) px;
+  height: Hug (76px) px;
+  padding: 12px 25px 12px 24px;
+  gap: 10px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: #fbfbfb;
+  align-items: center;
+  margin: 10px 0;
 }
 .the-vegetable {
   font-family: Inter Tight;
@@ -261,7 +258,6 @@ list-style-type: none;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #141414;
-
   
 }
 .next-to-it {
