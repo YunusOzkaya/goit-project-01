@@ -22,10 +22,19 @@
     flex-direction: column;
   }
 
-  /* THIRD SECTION */
+  /* THIRD SECTION / ADVERTİSEMENT  */
 
   .third-section-list {
     justify-content: center;
+  }
+  .advertisement {
+    width: 375px;
+    height: 472px;
+    top: 2048px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-left: 20px;
   }
 
   /* FOURTH SECTION */

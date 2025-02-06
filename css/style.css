@@ -96,7 +96,7 @@ li {
   .body2 {
     font-weight: bold;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 20pxf;
     letter-spacing: 0%;
   }
   .accent-text {
@@ -111,24 +111,25 @@ li {
 .advertisement {
   display: block;
   position: relative;
+  margin: auto;
   width: 1280px;
   height: 428px;
   top: 1556px;
   padding: 100px;
   gap: 10px;
-  align-items: center;
-  justify-content: center;
   color: #fbfbfb;
 }
+
 .discount {
-  display: block;
-  position: relative;
   align-items: center;
   justify-content: center;
   width: 1080px;
   height: 228px;
 }
-.discountyellow {
+.secret {
+  display: none;
+}
+.discount_yellow {
   display: block;
   background-color: #576f35;
   width: 808px;
@@ -136,7 +137,7 @@ li {
   top: -4px;
   border-radius: 12px;
 }
-.discountup {
+.discount_up {
   display: block;
   position: relative;
   text-transform: uppercase;
@@ -150,6 +151,6 @@ li {
   color: #fbfbfb;
 }
 
-.taste {
+.discount_taste {
   color: #141414;
 }
