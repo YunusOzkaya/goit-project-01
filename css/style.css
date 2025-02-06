@@ -27,6 +27,7 @@ a,ul,li{
     letter-spacing: 0;
 }
 
+
 .body2 {
     font-weight: 700;
     font-size: 16px;
@@ -104,3 +105,203 @@ a,ul,li{
         letter-spacing:-1.5%;
     }
 }
+
+/* how it works SECTİON START */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/* image start */
+
+
+.how-it-works-container-image{
+width: Hug (640px)px;
+height: Hug (760px)px;
+padding: 100px 0px 0px 0px;
+gap: 10px;
+opacity: 0px;
+background: #7A3145;
+float : left ;
+
+
+
+}
+.cantainer-rectangle{
+    width: 440px;
+    height: 560px;
+    gap: 0px;
+    border-radius: 30px 0px 0px 0px;
+    opacity: 0px;
+    background: #14141433;
+    
+
+    
+
+   /* image finish */ 
+   /* section list start */
+
+}
+.how-it-works-container-section-list{
+width: Hug (640px)px;
+height: Fixed (760px)px;
+top: 796px;
+left: 640px;
+padding: 100px 100px 160px 100px;
+gap: 10px;
+opacity: 0px;
+background: #576F35;
+float : left ;
+
+
+}
+.section-container{
+width: Fixed (440px)px;
+height: Hug (560px)px;
+gap: 104px;
+opacity: 0px;
+}
+.container-list-title{
+width: Fixed (440px)px;
+height: Hug (180px)px;
+gap: 24px;
+opacity: 0px;
+color: #FBFBFB;
+
+
+}
+.VEGETABLE{
+    background: #D4BFC4;
+
+}
+.EASY-STEPS{
+    background: #D4BFC4;
+
+}
+
+
+.easy-steps-title-bir{
+width: 440px;
+height: 96px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter Tight;
+font-size: 32px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.015em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+
+}
+.our-baskets-paragraf-bir{
+width: 440px;
+height: 60px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter Tight;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FBFBFB;
+
+
+}
+.container-list-block{
+    width: Fixed (440px)px;
+    height: Hug (276px)px;
+    gap: 24px;
+    opacity: 0px;
+    
+    }
+.list-item-one{
+    width: Fixed (440px)px;
+height: Hug (76px)px;
+padding: 12px 25px 12px 24px;
+gap: 10px;
+border-radius: 15px 0px 0px 0px;
+opacity: 0px;
+background: #FBFBFB;
+
+}
+.the-vegetable{
+font-family: Inter Tight;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #141414;
+
+}
+.next-to-it{
+    font-family: Inter Tight;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #141414;
+}
+.list-item-two{
+    width: Fixed (440px)px;
+height: Hug (76px)px;
+padding: 12px 27px 12px 24px;
+gap: 10px;
+border-radius: 15px 0px 0px 0px;
+opacity: 0px;
+background: #FBFBFB;
+
+}
+.the-basket{
+    font-family: Inter Tight;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #141414;
+}
+.list-item-three{
+    width: Fixed (440px)px;
+height: Hug (76px)px;
+padding: 12px 27px 12px 24px;
+gap: 10px;
+border-radius: 15px 0px 0px 0px;
+opacity: 0px;
+background: #FBFBFB;
+
+}
+.fresh-vegetables{ 
+    font-family: Inter Tight;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #141414;
+
+}
+
+
+
+
+/* section list finish */
