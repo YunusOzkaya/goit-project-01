@@ -109,7 +109,7 @@ li {
 /* advirtisement*/
 
 .advertisement {
-  display: block;
+  display: flex;
   position: relative;
   margin: auto;
   width: 1280px;
@@ -131,14 +131,15 @@ li {
 }
 .discount_yellow {
   display: block;
+  position: absolute;
   background-color: #576f35;
+  margin-top: -4px;
   width: 808px;
   height: 84px;
-  top: -4px;
   border-radius: 12px;
 }
 .discount_up {
-  display: block;
+  display: inline-block;
   position: relative;
   text-transform: uppercase;
   width: 1054px;
@@ -153,4 +154,70 @@ li {
 
 .discount_taste {
   color: #141414;
+}
+
+@media (max-width: 1280px) {
+  .header1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -1.5%;
+  }
+  .advertisement {
+    width: 768px;
+    height: 488px;
+    top: 2568px;
+    padding-top: 100px;
+    padding-right: 32px;
+    padding-bottom: 100px;
+    padding-left: 32px;
+    gap: 10px;
+  }
+
+  .discount {
+    width: 704px;
+    height: 288px;
+  }
+  .discount_yellow {
+    width: 675px;
+    height: 86px;
+  }
+  .discount_up {
+    width: 704px;
+    height: 256px;
+    top: 20px;
+    margin-left: -15px;
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .advertisement {
+    width: 375px;
+    height: 472px;
+    top: 2048px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    gap: 10px;
+  }
+  .discount {
+    width: 335px;
+    height: 312px;
+  }
+  .discount_yellow {
+    width: 335px;
+    height: 102px;
+  }
+  .discount_up {
+    width: 335px;
+    height: 312px;
+    top: 20px;
+    margin-left: -15px;
+    margin-top: -5px;
+  }
+  .header2 {
+    color: red;
+  }
 }
