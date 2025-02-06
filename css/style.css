@@ -221,7 +221,6 @@ li {
   opacity: 0px;
   margin-top: 20px;
   list-style-type: none;
-
 }
 .step-number {
   background-color: #5a2a41;
@@ -248,6 +247,7 @@ li {
   background: #fbfbfb;
   align-items: center;
   margin: 10px 0;
+  display: inline-block;
 }
 .the-vegetable {
   font-family: Inter Tight;
@@ -258,7 +258,6 @@ li {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #141414;
-  
 }
 .next-to-it {
   font-family: Inter Tight;
