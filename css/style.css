@@ -45,29 +45,25 @@ a,ul,li{
     font-weight: 600;
     font-size: 48px;
     line-height: 48px;
-    letter-spacing: -1.5%;
+    letter-spacing: -0.015em;
 }
 
 .header2 {
     font-weight: 600;
-    font-size: 48px;
-    line-height: 52px;
-    letter-spacing: -1.5%;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
 }
 
 .header3 {
     font-weight: 600;
-    font-size: 28px;
-    line-height: 28px;
-    letter-spacing: -1.5%;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
 }
 
-.button-text {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: -1.5%;
-}
 
 @media (max-width: 375px) {
     .header1{
