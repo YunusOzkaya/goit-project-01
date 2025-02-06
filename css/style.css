@@ -108,19 +108,6 @@ li {
 }
 
 
-.vegetables-card-list-items {
-    width: 100%;
-    max-width: 320px; /* Mobilde uygun genişlik */
-    height: auto;
-    padding: 24px;
-}
-
-.vegetables-card-list-items img {
-    max-height: 180px; /* Görsel boyutunu biraz küçült */
-}
-
-}
-
 /* VEGETABLES CSS START */
 #vegetables {
   width: 1280px;
