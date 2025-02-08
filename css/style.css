@@ -41,14 +41,15 @@ a,ul,li{
     letter-spacing: -0.015em;
 }
 
-.header1 {
+h1 {
     font-weight: 600;
     font-size: 76px;
     line-height: 76px;
     letter-spacing: -0.015em;
+    text-transform: uppercase;
 }
 
-.header2 {
+h2 {
     font-weight: 600;
     font-size: 64px;
     line-height: 64px;
@@ -56,7 +57,7 @@ a,ul,li{
     text-transform: uppercase;
 }
 
-.header3 {
+h3 {
     font-weight: 600;
     font-size: 32px;
     line-height: 32px;
@@ -64,40 +65,49 @@ a,ul,li{
     text-transform: uppercase;
 }
 
+.container{
+    max-width: 1280px;
+    width: 100%; 
+    margin: 0 auto;
+}
+
+
 
 @media (max-width: 375px) {
-    .header1{
+    h1{
         font-weight : 600;
         font-size: 48px;
         line-height: 48px;
+        letter-spacing: -0.015em;
+        text-transform: uppercase;
     }
-    .header2{
+    h2{
         font-weight : 600;
         font-size: 48px;
         line-height: 52px;
         letter-spacing: -0.015em;
+        text-transform: uppercase;
     }
-    .header3{
+    h3{
         font-weight : 600;
         font-size: 28px;
         line-height: 28px;
         letter-spacing: -0.015em;
+        text-transform: uppercase;
     }
     .body1{
         font-weight:medium;
         font-size: 14px;
         line-height: 20px;
-        letter-spacing:0%;
     }
        .body2{
         font-weight:bold;
         font-size: 14px;
         line-height: 20px;
-        letter-spacing:0%;
     }
     .accent-text{
         font-weight : 600;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 20px;
         letter-spacing:-0.015em;
     }
