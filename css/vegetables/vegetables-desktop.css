@@ -1,3 +1,91 @@
-@import url ('vegetables-tablet.css');
-@import url ('vegetables-mobile.css');
+@import url("vegetables-tablet.css");
+@import url("vegetables-mobile.css");
 
+#vegetables {
+  background-color: var(--chianti);
+  padding: 100px;
+}
+
+.vegetables-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  gap: 52px;
+}
+
+.vegetables-heading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.vegetables-header2 {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.vegetables-heading-parag {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  text-align: left;
+  position: relative;
+}
+.vegetables-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 0;
+  object-fit: cover;
+}
+
+.vegetables-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* cards hover */
+.vegetables-card-list .vegetables-card-list-items:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.vegetables-card-list-items {
+  padding: 24px;
+  background-color: var(--white);
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.vegetables-header2 {
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.vegetables-heading-span {
+  color: var(--blush);
+}
+
+.vegetables-card-list-items .vegetables-cards-heading {
+  color: var(--chianti);
+}
+
+.vegetables-card-list-items .vegetables-cards-parag {
+  color: var(--dark);
+  font-weight: 700;
+}
+
+.vegetables-card-list-items img {
+  width: 100%;
+  height: auto;
+}
