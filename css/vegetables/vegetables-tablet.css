@@ -1,0 +1,21 @@
+
+/* Tablet */
+@media (max-width: 765px) {
+    #vegetables {
+      padding: 100px 32px;
+    }
+  
+    .vegetables-cards .vegetables-card-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+      justify-content: center;
+    }
+  
+    .vegetables-card-list-items {
+      background-color: var(--white);
+      border-radius: 40px;
+      display: flex;
+      flex-direction: column;
+    }
+}

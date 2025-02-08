@@ -1,0 +1,42 @@
+/* Mobile */
+@media (max-width: 375px) {
+  #vegetables {
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vegetables-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .vegetables-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vegetables-cards .vegetables-card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .vegetables-card-list-items {
+    border-radius: 40px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .vegetables-heading-container .vegetables-heading-parag {
+    color: var(--white);
+  }
+}
