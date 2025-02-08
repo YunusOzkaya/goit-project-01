@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css" />
-    <!-- FONT: Inter Tight -->
+    <link rel="stylesheet" href="./css/reviews/reviews-desktop.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,54 +29,68 @@
       <section id="how-it-works"></section>
       <section id="advertisement"></section>
       <section id="vegetables"></section>
-      <section id="reviews">
-        <div class="reviews-container">
-          <div class="reviews-header">
-            <div class="reviews-header-responsive">
-              <h2 class="header2">
-                REVIEWS FROM <br>OUR <span id="reviews-header-span"> CUSTOMERS</span>
-              </h2>
-              <p class="body1">
-                Words of our customers: impressions and opinions about the quality
-                of our services and the freshness of our products.
-              </p>
-            </div>
-
+      <section id="reviews" class="reviews inter-tight">
+        <div class="container reviews-container">
+          <div class="reviews-text-container">
+            <h2 class="inter-tight reviews-heading">
+              reviews from our <span class="reviews-customers">customers</span>
+            </h2>
+            <p class="inter-tight reviews-subheading">
+              Words of our customers: impressions and opinions about the quality of
+              our services and the freshness of our products.
+            </p>
           </div>
-          <div class="reviews-customers">
-            <ul>
-              <li class="reviews-card">
-                <div class="reviews-card-inner">
-                  <img src="./images/human1.png" alt="" />
-                  <p class="accent-text">JOHN WAX</p>
-                  <p class="body1 review-text">
-                    These vegetables are my secret to delicious and healthy meals.
-                    The quality is always at the highest level, the aroma and
-                    taste are enchanting. I advise every fan of real products!
-                  </p>
-                </div>
-              </li>
-              <li class="reviews-card">
-                <div class="reviews-card-inner">
-                <img src="./images/human2.png" alt="" />
-                <p class="accent-text">VICTORIA ROMASHENKO</p>
-                <p class="body1 review-text">
-                  I love how fast and fresh the vegetables are delivered. Salads
-                  always turn out so appetizing, and soups are real masterpieces.
-                  The quality is impeccable!
-                </p>
+      
+          <ul class="reviews-card-container">
+            <li class="reviews-card reviews-first-card">
+              <div class="reviews-profile-container">
+                <img
+                  src="images/human1.png"
+                  alt="john wax profile picture"
+                />
               </div>
+      
+              <h2 class="reviews-card-title">John Wax</h2>
+              <p class="reviews-card-text">
+                These vegetables are my secret to delicious and healthy meals. The
+                quality is always at the highest level, the aroma and taste are
+                enchanting. I advise every fan of real products!
+              </p>
             </li>
-              <li class="reviews-card">
-                <div class="reviews-card-inner">
-                <img src="./images/human3.png" alt="" />
-                <p class="accent-text">IHOR TRACHUK</p>
-                <p class="body1 review-text">Recently tried my fresh tomatoes and peppers - amazing! The authenticity of the taste, as if from the garden directly to my table. It is now my main vegetable supplier.</p>
+      
+            <li class="reviews-card reviews-second-card">
+              <div class="reviews-profile-container">
+                <img
+                src="images/human2.png"
+                  alt="victoria profile picture"
+                />
               </div>
+      
+              <h2 class="reviews-card-title">Victoria Romashenko</h2>
+              <p class="reviews-card-text">
+                I love how fast and fresh the vegetables are delivered. Salads always
+                turn out so appetizing, and soups are real masterpieces. The quality
+                is impeccable!
+              </p>
+            </li>
+      
+            <li class="reviews-card reviews-third-card">
+              <div class="reviews-profile-container">
+                <img
+                  src="images/human3.png"
+                  alt="ihor profile picture"
+                />
+              </div>
+      
+              <h2 class="reviews-card-title">Ihor Trachuk</h2>
+              <p class="reviews-card-text">
+                Recently tried my fresh tomatoes and peppers - amazing! The
+                authenticity of the taste, as if from the garden directly to my table.
+                It is now my main vegetable supplier.
+              </p>
             </li>
           </ul>
-          </div>
-      </div>
+        </div>
       </section>
       <section id="your-order"></section>
     </main>
