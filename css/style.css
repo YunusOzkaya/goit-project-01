@@ -215,6 +215,12 @@ p{
     display: none;
 }
 
+.hero-image-desktop{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
 /* HOW İT WORKS */
 
 .how-it-works{
