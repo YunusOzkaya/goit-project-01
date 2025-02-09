@@ -234,6 +234,11 @@ p{
     display: block;    
 }
 
+    .vegetables-card>img{
+    width: 280px;
+    height: 240px;
+}
+
 /* REVİEWS */
 .reviews-container{
     padding: 80px 20px;
