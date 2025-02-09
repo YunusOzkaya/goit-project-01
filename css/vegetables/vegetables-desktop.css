@@ -1,6 +1,7 @@
 @import url("vegetables-tablet.css");
 @import url("vegetables-mobile.css");
 
+
 #vegetables {
   background-color: var(--chianti);
   padding: 100px;
@@ -62,6 +63,7 @@
   border-radius: 40px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .vegetables-heading-span {
@@ -76,4 +78,3 @@
   color: var(--dark);
   font-weight: 700;
 }
-
