@@ -392,6 +392,10 @@ p{
     display: none;
 }
 
+.vegetables-card>img{
+    width: 280px;
+    height: 244px;
+}
 
 /* REVİEWS */
 
